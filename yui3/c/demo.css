@@ -1,0 +1,39 @@
+
+body {
+	width:300px;
+	margin:auto;
+	background:black;
+	text-align:left;
+	color:#999;
+}
+h1 {
+	font-size:220%;
+	font-family:'HelveticaNeue-UltraLight','Helvetica Neue UltraLight','Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-weight:100;
+	color:#999;
+	margin:50px 0 20px;
+}
+a {
+    color:#fc3;
+}
+p {
+    margin:2em auto;
+    text-align:left;
+    line-height:1.6;
+}
+p strong {
+    font-weight:bold;
+}
+    a.y-toggler {
+        padding:0 5px;
+        font-weight:bold;
+    }
+    a.y-toggler:after {
+        content:"\00A0\00BB";
+    }
+    .y-toggler a.y-toggler-true:after {
+        content:"";
+    }
+    .y-toggler a.y-toggler-true:before {
+        content:"\00AB\00A0";
+    }
